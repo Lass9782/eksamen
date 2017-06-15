@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/*Her impoterer jeg variables*/
+/*Så er der ingen uønsket margin*/
+/* line 7, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+body,
+h1,
+h2,
+p,
+nav ul,
+nav li,
+div ul,
+div li {
+  margin: 0px;
+  padding: 0px; }
+
+/*Min wrapper*/
+/* line 22, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+.wrapper {
+  width: 1920px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+/*Header*/
+/* line 31, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+header {
+  width: 960px;
+  margin: 0 auto;
+  max-width: 100%;
+  /*Min menu*/ }
+  /* line 35, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  header img {
+    width: 100%; }
+  /* line 39, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  header nav {
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    height: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    /* line 46, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    header nav ul {
+      padding-left: 1%;
+      padding-right: 1%; }
+      /* line 49, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      header nav ul .gray {
+        background-color: #e7e7e7;
+        padding: 10px 10px 10px 10px;
+        display: inline-block;
+        width: 84%; }
+      /* line 55, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      header nav ul li {
+        display: inline-block; }
+      /* line 58, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      header nav ul a {
+        text-decoration: none;
+        color: #777;
+        text-transform: uppercase;
+        font-family: "helvetica";
+        font-size: 12px; }
+    /* line 66, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    header nav #ul1 {
+      padding-top: 1%; }
+    /* line 69, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    header nav .li1 {
+      padding-right: 25px; }
+
+/*Min main*/
+/* line 78, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+main {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: solid 1px #ccc;
+  /*Aside*/
+  /*Min post class til artikler*/ }
+  /* line 86, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  main aside {
+    width: 26%;
+    padding-top: 4%;
+    max-width: 100%;
+    /*Font-awesome ikoner*/ }
+    /* line 90, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    main aside img {
+      width: 100%; }
+    /* line 93, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    main aside p {
+      font-family: "helvetica";
+      font-size: 12px;
+      padding-top: 4%;
+      padding-bottom: 7%;
+      border-bottom: solid 1px #ccc; }
+    /* line 101, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    main aside .fa-2x {
+      padding-top: 7%; }
+  /* line 106, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  main .post {
+    width: 70%;
+    max-width: 100%;
+    padding-top: 2%;
+    /*Selve artiklen*/ }
+    /* line 111, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    main .post article {
+      width: 100%;
+      border-bottom: solid 1px #ccc;
+      padding-bottom: 2%;
+      padding-top: 3%;
+      /*De to classer som beskriver afsenderen og tiden*/
+      /*Atikle beskrivelsen*/ }
+      /* line 116, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      main .post article img {
+        width: 100%; }
+      /* line 119, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      main .post article h1 {
+        font-family: "helvetica";
+        font-size: 20px; }
+      /* line 124, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      main .post article .afsender,
+      main .post article .time {
+        font-size: 12px;
+        display: inline-block;
+        text-transform: uppercase; }
+      /* line 131, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      main .post article .afsender p {
+        display: inline-block;
+        color: #ccc; }
+      /* line 137, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      main .post article p {
+        font-family: "helvetica";
+        font-size: 12px; }
+
+/* line 145, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+footer {
+  margin: 0 auto;
+  text-align: center; }
+
+/*# sourceMappingURL=logind.css.map */

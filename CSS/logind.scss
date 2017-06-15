@@ -50,7 +50,7 @@ header {
                 background-color: #e7e7e7;
                 padding: 10px 10px 10px 10px;
                 display: inline-block;
-                width: 14%;
+                width: 84%;
             }
             li {
                 display: inline-block;
@@ -63,29 +63,26 @@ header {
                 font-size: $fontsize;
             }
         }
+        #ul1 {
+            padding-top: 1%;
+        }
         .li1 {
             padding-right: 25px;
         }
     }
-    /*Ul hvor linket går til log ind siden*/
-    #logind {
-        padding-top: 1%;
-    }
 }
 
-
-}
 
 /*Min main*/
+
 main {
     width: $width;
     max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    border-bottom: $border;
     /*Aside*/
-    
     aside {
         width: 26%;
         padding-top: 4%;
@@ -106,7 +103,6 @@ main {
         }
     }
     /*Min post class til artikler*/
-    
     .post {
         width: 70%;
         max-width: 100%;
@@ -145,6 +141,7 @@ main {
         }
     }
 }
+
 footer {
     margin: 0 auto;
     text-align: center;
