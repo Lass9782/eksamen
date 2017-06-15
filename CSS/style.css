@@ -1,2 +1,25 @@
+@charset "UTF-8";
+/*Så er der ingen uønsket margin*/
+/* line 5, C:/xampp/htdocs/eksamen/CSS/style.scss */
+body,
+h1,
+h2,
+p,
+nav ul,
+nav li,
+div ul,
+div li {
+  margin: 0px;
+  padding: 0px; }
+
+/* line 17, C:/xampp/htdocs/eksamen/CSS/style.scss */
+.wrapper {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto; }
+  /* line 21, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  .wrapper nav {
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc; }
 
 /*# sourceMappingURL=style.css.map */

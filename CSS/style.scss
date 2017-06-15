@@ -1,0 +1,30 @@
+@import "variables";
+
+/*Så er der ingen uønsket margin*/
+
+body,
+h1,
+h2,
+p,
+nav ul,
+nav li,
+div ul,
+div li {
+    margin: $marginnone;
+    padding: $marginnone;
+}
+
+.wrapper {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    nav {
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #ccc;
+        ul {
+            li {
+                a {}
+            }
+        }
+    }
+}
