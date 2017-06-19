@@ -80,10 +80,13 @@ main {
   /*Knappen for at logge ind*/
   /*Informationerne om hvilket flet der er til brugernavn og password*/ }
   /* line 88, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  main form {
+    width: 100%; }
+  /* line 91, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   main input[type=text],
   main select {
-    width: 152%;
-    max-width: 152%;
+    width: 100%;
+    max-width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -91,20 +94,20 @@ main {
     border-radius: 4px;
     box-sizing: border-box;
     height: 25px; }
-  /* line 101, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 104, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   main input[type=submit] {
     padding: 6px 10px;
     background-color: transparent;
     border: solid 1px lightgray;
     margin-top: 2%; }
-  /* line 108, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 111, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   main label {
     font-family: "helvetica";
     font-weight: bold;
     font-size: 12px; }
 
 /*Footer*/
-/* line 118, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+/* line 121, C:/xampp/htdocs/eksamen/CSS/logind.scss */
 footer {
   margin: 0 auto;
   text-align: center;

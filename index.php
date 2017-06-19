@@ -60,19 +60,19 @@
                             <div class="form-group">
                                 <label for="heading">Titel</label>
                                 <br>
-                                <input id="heading" type="text" name="heading" placeholder="Overskrift her..."> </div>
+                                <input id="heading" type="text" name="heading" placeholder="Titel på dit indlæg"> </div>
                             <div class="form-group">
                                 <label for="imgSrc">Billede navn</label>
                                 <br>
-                                <input id="imgSrc" type="text" name="imgSrc" placeholder="Sti til billedet uden .png"> </div>
+                                <input id="imgSrc" type="text" name="imgSrc" placeholder="Navn på billede uden jpg."> </div>
                             <div class="form-group">
                                 <label for="imgAlt">Billede alt tekst</label>
                                 <br>
-                                <input id="imgAlt" type="text" name="imgAlt" placeholder="Tekst der beskriver dit billede"> </div>
+                                <input id="imgAlt" type="text" name="imgAlt" placeholder="Billedets alt tekst"> </div>
                             <div class="form-group">
                                 <label for="articleText" name="articleText" placeholder="Tekst">Indlæggets tekst</label>
                                 <br>
-                                <textarea id="articleText" type="text" name="articleText"> Indlæggets tekst </textarea>
+                                <textarea id="articleText" type="text" name="articleText" placeholder="Indlæggets tekst"> </textarea>
                             </div>
                             <input type="submit" value="Udgiv indlæg"> </form>
                         <article>

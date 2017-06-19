@@ -85,10 +85,13 @@ main {
     padding-bottom: 2%;
     padding-top: 15px;
     /*Felterne hvor du skal indtaste dit brugernavn og password*/
+    form {
+        width: 100%;
+    }
     input[type=text],
     select {
-        width: 152%;
-        max-width: 152%;
+        width: 100%;
+        max-width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;

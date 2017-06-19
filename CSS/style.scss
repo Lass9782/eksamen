@@ -66,6 +66,9 @@ header {
         .li1 {
             padding-right: 25px;
         }
+        li.w540 {
+            display: none;
+        }
     }
     /*Ul hvor linket går til log ind siden*/
     #logind {
@@ -159,6 +162,7 @@ main {
             }
         }
     }
+    /*Den div hvor man skal indtaste informationerne om indlægget*/
     .form-group {
         padding-top: 2%;
         h1 {
@@ -202,4 +206,32 @@ footer {
     margin: 0 auto;
     text-align: center;
     padding-top: 1%;
+}
+
+@media screen and (max-width: 423px) {
+    header {
+        nav {
+            justify-content: space-around;
+            ul {
+                .gray {
+                    padding-right: 50px;
+                }
+                a {
+                    padding-left: 34px;
+                }
+            }
+        }
+        #logind {
+            display: none;
+        }
+    }
+    main {
+        flex-direction: column;
+        aside {
+            width: 100%;
+        }
+        .post {
+            width: 99%;
+        }
+    }
 }
