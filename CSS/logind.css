@@ -74,66 +74,40 @@ main {
   display: flex;
   flex-wrap: wrap;
   border-bottom: solid 1px #ccc;
-  /*Aside*/
-  /*Min post class til artikler*/ }
-  /* line 86, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-  main aside {
-    width: 26%;
-    padding-top: 4%;
-    max-width: 100%;
-    /*Font-awesome ikoner*/ }
-    /* line 90, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-    main aside img {
-      width: 100%; }
-    /* line 93, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-    main aside p {
-      font-family: "helvetica";
-      font-size: 12px;
-      padding-top: 4%;
-      padding-bottom: 7%;
-      border-bottom: solid 1px #ccc; }
-    /* line 101, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-    main aside .fa-2x {
-      padding-top: 7%; }
-  /* line 106, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-  main .post {
-    width: 70%;
-    max-width: 100%;
-    padding-top: 2%;
-    /*Selve artiklen*/ }
-    /* line 111, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-    main .post article {
-      width: 100%;
-      border-bottom: solid 1px #ccc;
-      padding-bottom: 2%;
-      padding-top: 3%;
-      /*De to classer som beskriver afsenderen og tiden*/
-      /*Atikle beskrivelsen*/ }
-      /* line 116, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-      main .post article img {
-        width: 100%; }
-      /* line 119, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-      main .post article h1 {
-        font-family: "helvetica";
-        font-size: 20px; }
-      /* line 124, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-      main .post article .afsender,
-      main .post article .time {
-        font-size: 12px;
-        display: inline-block;
-        text-transform: uppercase; }
-      /* line 131, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-      main .post article .afsender p {
-        display: inline-block;
-        color: #ccc; }
-      /* line 137, C:/xampp/htdocs/eksamen/CSS/logind.scss */
-      main .post article p {
-        font-family: "helvetica";
-        font-size: 12px; }
+  padding-bottom: 2%;
+  padding-top: 15px;
+  /*Felterne hvor du skal indtaste dit brugernavn og password*/
+  /*Knappen for at logge ind*/
+  /*Informationerne om hvilket flet der er til brugernavn og password*/ }
+  /* line 88, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  main input[type=text],
+  main select {
+    width: 152%;
+    max-width: 152%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 25px; }
+  /* line 101, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  main input[type=submit] {
+    padding: 6px 10px;
+    background-color: transparent;
+    border: solid 1px lightgray;
+    margin-top: 2%; }
+  /* line 108, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  main label {
+    font-family: "helvetica";
+    font-weight: bold;
+    font-size: 12px; }
 
-/* line 145, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+/*Footer*/
+/* line 118, C:/xampp/htdocs/eksamen/CSS/logind.scss */
 footer {
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  padding-top: 1%; }
 
 /*# sourceMappingURL=logind.css.map */

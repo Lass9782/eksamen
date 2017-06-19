@@ -33,7 +33,9 @@
             <!-- Main med log ind -->
             <main>
                 <form action="checkUser.php" method="post">
+                    <label for="formUsername">Brugernavn</label>
                     <input type="text" id="user" placeholder="Indtast dit brugernavn" name="formUsername">
+                    <label for="formPassword">Password</label>
                     <input type="text" id="pass" placeholder="Indtast dit password" name="formPassword">
                     <input type="submit" value="Log ind"> </form>
             </main>

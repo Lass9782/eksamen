@@ -71,12 +71,27 @@ header {
     #logind {
         padding-top: 1%;
     }
+    /*Når man er logget ind kommer dette frem*/
+    h4 {
+        font-family: $fontfamily;
+        font-size: $fontsize;
+        text-transform: uppercase;
+        color: #777;
+        padding-right: 1%;
+        margin-top: 1%;
+        a {
+            text-decoration: none;
+            font-family: $fontfamily;
+            font-size: $fontsize;
+            text-transform: uppercase;
+            color: #777;
+        }
+    }
 }
 
-
-}
 
 /*Min main*/
+
 main {
     width: $width;
     max-width: 100%;
@@ -85,7 +100,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     /*Aside*/
-    
     aside {
         width: 26%;
         padding-top: 4%;
@@ -106,7 +120,6 @@ main {
         }
     }
     /*Min post class til artikler*/
-    
     .post {
         width: 70%;
         max-width: 100%;
@@ -123,6 +136,8 @@ main {
             h1 {
                 font-family: $fontfamily;
                 font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 100;
             }
             /*De to classer som beskriver afsenderen og tiden*/
             .afsender,
@@ -144,8 +159,47 @@ main {
             }
         }
     }
+    .form-group {
+        padding-top: 2%;
+        h1 {
+            font-family: $fontfamily;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 100;
+        }
+        label {
+            font-family: $fontfamily;
+            font-weight: bold;
+            font-size: $fontsize;
+        }
+        input[type=text],
+        select {
+            width: 100%;
+            max-width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            height: 25px;
+        }
+        textarea {
+            width: 99.5%;
+            height: 75px;
+            font-size: 16px;
+            resize: none;
+        }
+    }
+    input[type=submit] {
+        padding: 6px 10px;
+        background-color: transparent;
+        border: solid 1px lightgray;
+        margin-top: 2%;
+    }
 }
+
 footer {
     margin: 0 auto;
     text-align: center;
+    padding-top: 1%;
 }

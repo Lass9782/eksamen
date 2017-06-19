@@ -82,67 +82,41 @@ main {
     display: flex;
     flex-wrap: wrap;
     border-bottom: $border;
-    /*Aside*/
-    aside {
-        width: 26%;
-        padding-top: 4%;
-        max-width: 100%;
-        img {
-            width: 100%;
-        }
-        p {
-            font-family: $fontfamily;
-            font-size: $fontsize;
-            padding-top: 4%;
-            padding-bottom: 7%;
-            border-bottom: $border;
-        }
-        /*Font-awesome ikoner*/
-        .fa-2x {
-            padding-top: 7%;
-        }
+    padding-bottom: 2%;
+    padding-top: 15px;
+    /*Felterne hvor du skal indtaste dit brugernavn og password*/
+    input[type=text],
+    select {
+        width: 152%;
+        max-width: 152%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        height: 25px;
     }
-    /*Min post class til artikler*/
-    .post {
-        width: 70%;
-        max-width: 100%;
-        padding-top: 2%;
-        /*Selve artiklen*/
-        article {
-            width: 100%;
-            border-bottom: $border;
-            padding-bottom: 2%;
-            padding-top: 3%;
-            img {
-                width: 100%;
-            }
-            h1 {
-                font-family: $fontfamily;
-                font-size: 20px;
-            }
-            /*De to classer som beskriver afsenderen og tiden*/
-            .afsender,
-            .time {
-                font-size: $fontsize;
-                display: inline-block;
-                text-transform: uppercase;
-            }
-            .afsender {
-                p {
-                    display: inline-block;
-                    color: #ccc;
-                }
-            }
-            /*Atikle beskrivelsen*/
-            p {
-                font-family: $fontfamily;
-                font-size: $fontsize;
-            }
-        }
+    /*Knappen for at logge ind*/
+    input[type=submit] {
+        padding: 6px 10px;
+        background-color: transparent;
+        border: solid 1px lightgray;
+        margin-top: 2%;
+    }
+    /*Informationerne om hvilket flet der er til brugernavn og password*/
+    label {
+        font-family: $fontfamily;
+        font-weight: bold;
+        font-size: $fontsize;
     }
 }
+
+
+/*Footer*/
 
 footer {
     margin: 0 auto;
     text-align: center;
+    padding-top: 1%;
 }

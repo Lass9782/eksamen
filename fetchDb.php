@@ -12,7 +12,8 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)){ ?>
         <h1><?php echo $row['heading'] ?></h1> <img src="IMG/<?php echo $row['imgSrc'] ?>.jpg" alt="<?php echo $row['imgAlt'] ?>">
         <div class="afsender">
             <p>Skrevet af</p>
-            <p>Den</p>
+            <?php echo $row['username'] ?>
+                <p>Den</p>
         </div>
         <div class="time">
             <p>

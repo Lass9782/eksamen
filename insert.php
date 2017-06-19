@@ -11,7 +11,7 @@ $username = $_SESSION['username'];
 /*Så kan dataen komme ind i vores database*/
 require_once "connect.php";
 /*Her for de forskellige variabler en værdig som brugeren indtaster på hjemmesiden*/
-$statement = $DBH->prepare("INSERT INTO articles (imgSrc, imgAlt, heading, time, articleText, username) values(?, ?, ?, ?, ?, ?) ");
+$statement = $DBH->prepare("INSERT INTO post (imgSrc, imgAlt, heading, time, articleText, username) values(?, ?, ?, ?, ?, ?) ");
 /*Her kan man se hvilket spørgsmåltegn hver variabel udgør. Spørgsmålstegn 1 er f.eks. $imgSrc*/
 $statement->bindParam(1, $imgSrc);
 $statement->bindParam(2, $imgAlt);
