@@ -1,11 +1,19 @@
+/*Den div class slideshowet ligger i*/
+
 .fadein {
     position: relative;
 }
+
+
+/*Billederne i slideshowet*/
 
 .fadein img {
     width: 100%;
     height: auto;
 }
+
+
+/*Dette fatsholder billedernes størrelse*/
 
 .fadein img:not(:first-child) {
     position: absolute;
