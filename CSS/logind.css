@@ -41,32 +41,33 @@ header {
     /* line 46, C:/xampp/htdocs/eksamen/CSS/logind.scss */
     header nav ul {
       padding-right: 1%;
-      padding-left: 1%; }
-      /* line 49, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      padding-left: 1%;
+      /*Det grå menupunkt*/ }
+      /* line 50, C:/xampp/htdocs/eksamen/CSS/logind.scss */
       header nav ul .gray {
         background-color: #e7e7e7;
         padding: 10px 4px 10px 18px;
         display: inline-block;
         width: 84%; }
-      /* line 55, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      /* line 56, C:/xampp/htdocs/eksamen/CSS/logind.scss */
       header nav ul li {
         display: inline-block; }
-      /* line 58, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+      /* line 59, C:/xampp/htdocs/eksamen/CSS/logind.scss */
       header nav ul a {
         text-decoration: none;
         color: #777;
         text-transform: uppercase;
         font-family: "helvetica";
         font-size: 12px; }
-    /* line 66, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    /* line 67, C:/xampp/htdocs/eksamen/CSS/logind.scss */
     header nav #ul1 {
       padding-top: 1%; }
-    /* line 69, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    /* line 70, C:/xampp/htdocs/eksamen/CSS/logind.scss */
     header nav .li1 {
       padding-right: 25px; }
 
 /*Min main*/
-/* line 78, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+/* line 79, C:/xampp/htdocs/eksamen/CSS/logind.scss */
 main {
   width: 960px;
   max-width: 100%;
@@ -79,10 +80,10 @@ main {
   /*Felterne hvor du skal indtaste dit brugernavn og password*/
   /*Knappen for at logge ind*/
   /*Informationerne om hvilket flet der er til brugernavn og password*/ }
-  /* line 88, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 89, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   main form {
     width: 100%; }
-  /* line 91, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 92, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   main input[type=text],
   main select {
     width: 100%;
@@ -94,20 +95,20 @@ main {
     border-radius: 4px;
     box-sizing: border-box;
     height: 25px; }
-  /* line 104, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 105, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   main input[type=submit] {
     padding: 6px 10px;
     background-color: transparent;
     border: solid 1px lightgray;
     margin-top: 2%; }
-  /* line 111, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 112, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   main label {
     font-family: "helvetica";
     font-weight: bold;
     font-size: 12px; }
 
 /*Footer*/
-/* line 121, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+/* line 122, C:/xampp/htdocs/eksamen/CSS/logind.scss */
 footer {
   margin: 0 auto;
   text-align: center;
@@ -115,22 +116,22 @@ footer {
 
 /*Virker på skærme med 423px i breden*/
 @media screen and (max-width: 423px) {
-  /* line 132, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 133, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   header nav {
     justify-content: center;
     height: 130px; }
-    /* line 136, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    /* line 137, C:/xampp/htdocs/eksamen/CSS/logind.scss */
     header nav ul li {
       display: block;
       text-align: center;
       padding-bottom: 10%; }
-    /* line 141, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    /* line 142, C:/xampp/htdocs/eksamen/CSS/logind.scss */
     header nav ul a {
       padding-left: 11px; }
-  /* line 146, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+  /* line 147, C:/xampp/htdocs/eksamen/CSS/logind.scss */
   header #logind {
     display: block; }
-    /* line 148, C:/xampp/htdocs/eksamen/CSS/logind.scss */
+    /* line 149, C:/xampp/htdocs/eksamen/CSS/logind.scss */
     header #logind .gray {
       width: 100%;
       padding-right: 0;

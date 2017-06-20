@@ -43,30 +43,31 @@ header {
     /* line 41, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
     header nav ul {
       padding-left: 1%;
-      padding-right: 1%; }
-      /* line 44, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+      padding-right: 1%;
+      /*Det grå menupunkt*/ }
+      /* line 45, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
       header nav ul .gray {
         background-color: #e7e7e7;
         padding: 10px 4px 10px 18px;
         display: inline-block;
         width: 24%; }
-      /* line 50, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+      /* line 51, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
       header nav ul li {
         display: inline-block; }
-      /* line 53, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+      /* line 54, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
       header nav ul a {
         text-decoration: none;
         color: #777;
         text-transform: uppercase;
         font-family: "helvetica";
         font-size: 12px; }
-    /* line 61, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+    /* line 62, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
     header nav .li1 {
       padding-right: 25px; }
-  /* line 66, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+  /* line 67, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
   header #logind {
     padding-top: 1%; }
-  /* line 70, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+  /* line 71, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
   header h4 {
     font-family: "helvetica";
     font-size: 12px;
@@ -74,7 +75,7 @@ header {
     color: #777;
     padding-right: 1%;
     margin-top: 1%; }
-    /* line 77, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+    /* line 78, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
     header h4 a {
       text-decoration: none;
       font-family: "helvetica";
@@ -83,7 +84,7 @@ header {
       color: #777; }
 
 /*Min main*/
-/* line 88, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+/* line 89, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
 main {
   width: 960px;
   max-width: 100%;
@@ -96,7 +97,7 @@ main {
   border-bottom: solid 1px #ccc; }
 
 /*Footer*/
-/* line 101, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+/* line 102, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
 footer {
   margin: 0 auto;
   text-align: center;
@@ -104,27 +105,27 @@ footer {
 
 /*Virker på skærme med 423px i breden*/
 @media screen and (max-width: 423px) {
-  /* line 110, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+  /* line 111, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
   header nav {
     justify-content: center;
     height: 160px; }
-    /* line 114, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+    /* line 115, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
     header nav ul .gray {
       width: 100%;
       padding-right: 0;
       padding: 10px 10px 0px 3px; }
-    /* line 119, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+    /* line 120, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
     header nav ul li {
       display: block;
       text-align: center;
       padding-bottom: 10%; }
-    /* line 124, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+    /* line 125, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
     header nav ul a {
       padding-left: 34px; }
-  /* line 129, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+  /* line 130, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
   header #logind {
     display: block; }
-  /* line 133, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
+  /* line 134, C:/xampp/htdocs/eksamen/CSS/slideshow.scss */
   main {
     flex-direction: column;
     padding-top: 3%; } }
