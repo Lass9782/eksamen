@@ -42,34 +42,30 @@ header {
     justify-content: space-between; }
     /* line 46, C:/xampp/htdocs/eksamen/CSS/style.scss */
     header nav ul {
-      padding-left: 1%;
       padding-right: 1%; }
-      /* line 49, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 48, C:/xampp/htdocs/eksamen/CSS/style.scss */
       header nav ul .gray {
         background-color: #e7e7e7;
-        padding: 10px 10px 10px 10px;
+        padding: 10px 4px 10px 18px;
         display: inline-block;
         width: 14%; }
-      /* line 55, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 54, C:/xampp/htdocs/eksamen/CSS/style.scss */
       header nav ul li {
         display: inline-block; }
-      /* line 58, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 57, C:/xampp/htdocs/eksamen/CSS/style.scss */
       header nav ul a {
         text-decoration: none;
         color: #777;
         text-transform: uppercase;
         font-family: "helvetica";
         font-size: 12px; }
-    /* line 66, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 65, C:/xampp/htdocs/eksamen/CSS/style.scss */
     header nav .li1 {
       padding-right: 25px; }
-    /* line 69, C:/xampp/htdocs/eksamen/CSS/style.scss */
-    header nav li.w540 {
-      display: none; }
-  /* line 74, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /* line 70, C:/xampp/htdocs/eksamen/CSS/style.scss */
   header #logind {
     padding-top: 1%; }
-  /* line 78, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /* line 74, C:/xampp/htdocs/eksamen/CSS/style.scss */
   header h4 {
     font-family: "helvetica";
     font-size: 12px;
@@ -77,7 +73,7 @@ header {
     color: #777;
     padding-right: 1%;
     margin-top: 1%; }
-    /* line 85, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 81, C:/xampp/htdocs/eksamen/CSS/style.scss */
     header h4 a {
       text-decoration: none;
       font-family: "helvetica";
@@ -86,7 +82,7 @@ header {
       color: #777; }
 
 /*Min main*/
-/* line 98, C:/xampp/htdocs/eksamen/CSS/style.scss */
+/* line 94, C:/xampp/htdocs/eksamen/CSS/style.scss */
 main {
   width: 960px;
   max-width: 100%;
@@ -96,33 +92,34 @@ main {
   justify-content: space-between;
   /*Aside*/
   /*Min post class til artikler*/
-  /*Den div hvor man skal indtaste informationerne om indlægget*/ }
-  /* line 106, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /*Den div class hvor man skal indtaste informationerne om indlægget*/
+  /*Knappen hvor du indsætter dit indlæg*/ }
+  /* line 102, C:/xampp/htdocs/eksamen/CSS/style.scss */
   main aside {
     width: 26%;
     padding-top: 4%;
     max-width: 100%;
     /*Font-awesome ikoner*/ }
-    /* line 110, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 106, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main aside img {
       width: 100%; }
-    /* line 113, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 109, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main aside p {
       font-family: "helvetica";
       font-size: 12px;
       padding-top: 4%;
       padding-bottom: 7%;
       border-bottom: solid 1px #ccc; }
-    /* line 121, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 117, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main aside .fa-2x {
       padding-top: 7%; }
-  /* line 126, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /* line 122, C:/xampp/htdocs/eksamen/CSS/style.scss */
   main .post {
     width: 70%;
     max-width: 100%;
     padding-top: 2%;
     /*Selve artiklen*/ }
-    /* line 131, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 127, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main .post article {
       width: 100%;
       border-bottom: solid 1px #ccc;
@@ -130,44 +127,46 @@ main {
       padding-top: 3%;
       /*De to classer som beskriver afsenderen og tiden*/
       /*Atikle beskrivelsen*/ }
-      /* line 136, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 132, C:/xampp/htdocs/eksamen/CSS/style.scss */
       main .post article img {
         width: 100%; }
-      /* line 139, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 135, C:/xampp/htdocs/eksamen/CSS/style.scss */
       main .post article h1 {
         font-family: "helvetica";
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 100; }
-      /* line 146, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 142, C:/xampp/htdocs/eksamen/CSS/style.scss */
       main .post article .afsender,
       main .post article .time {
         font-size: 12px;
         display: inline-block;
         text-transform: uppercase; }
-      /* line 153, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 149, C:/xampp/htdocs/eksamen/CSS/style.scss */
       main .post article .afsender p {
         display: inline-block;
         color: #ccc; }
-      /* line 159, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      /* line 155, C:/xampp/htdocs/eksamen/CSS/style.scss */
       main .post article p {
         font-family: "helvetica";
         font-size: 12px; }
-  /* line 166, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /* line 162, C:/xampp/htdocs/eksamen/CSS/style.scss */
   main .form-group {
-    padding-top: 2%; }
-    /* line 168, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    padding-top: 2%;
+    /*De tre steder hvor du skal beskrive dit billede mere specifikt*/
+    /*Den store rubrik hvor du kan beskrive dit indlæg*/ }
+    /* line 164, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main .form-group h1 {
       font-family: "helvetica";
       font-size: 20px;
       text-transform: uppercase;
       font-weight: 100; }
-    /* line 174, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 170, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main .form-group label {
       font-family: "helvetica";
       font-weight: bold;
       font-size: 12px; }
-    /* line 179, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 176, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main .form-group input[type=text],
     main .form-group select {
       width: 100%;
@@ -178,45 +177,55 @@ main {
       border: 1px solid #ccc;
       box-sizing: border-box;
       height: 25px; }
-    /* line 190, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 188, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main .form-group textarea {
       width: 99.5%;
       height: 75px;
       font-size: 16px;
       resize: none; }
-  /* line 197, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /* line 196, C:/xampp/htdocs/eksamen/CSS/style.scss */
   main input[type=submit] {
     padding: 6px 10px;
     background-color: transparent;
     border: solid 1px lightgray;
     margin-top: 2%; }
 
-/* line 205, C:/xampp/htdocs/eksamen/CSS/style.scss */
+/*Footer*/
+/* line 207, C:/xampp/htdocs/eksamen/CSS/style.scss */
 footer {
   margin: 0 auto;
   text-align: center;
   padding-top: 1%; }
 
+/*Virker på skærme med 423px i breden*/
 @media screen and (max-width: 423px) {
-  /* line 213, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /* line 218, C:/xampp/htdocs/eksamen/CSS/style.scss */
   header nav {
-    justify-content: space-around; }
-    /* line 216, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    justify-content: center;
+    height: 130px; }
+    /* line 222, C:/xampp/htdocs/eksamen/CSS/style.scss */
     header nav ul .gray {
-      padding-right: 50px; }
-    /* line 219, C:/xampp/htdocs/eksamen/CSS/style.scss */
+      width: 100%;
+      padding-right: 0;
+      padding: 10px 10px 0px 3px; }
+    /* line 227, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    header nav ul li {
+      display: block;
+      text-align: center;
+      padding-bottom: 10%; }
+    /* line 232, C:/xampp/htdocs/eksamen/CSS/style.scss */
     header nav ul a {
       padding-left: 34px; }
-  /* line 224, C:/xampp/htdocs/eksamen/CSS/style.scss */
+  /* line 237, C:/xampp/htdocs/eksamen/CSS/style.scss */
   header #logind {
-    display: none; }
-  /* line 228, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    display: block; }
+  /* line 241, C:/xampp/htdocs/eksamen/CSS/style.scss */
   main {
     flex-direction: column; }
-    /* line 230, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 243, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main aside {
       width: 100%; }
-    /* line 233, C:/xampp/htdocs/eksamen/CSS/style.scss */
+    /* line 246, C:/xampp/htdocs/eksamen/CSS/style.scss */
     main .post {
       width: 99%; } }
 

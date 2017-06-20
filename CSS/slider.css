@@ -1,0 +1,14 @@
+.fadein {
+    position: relative;
+}
+
+.fadein img {
+    width: 100%;
+    height: auto;
+}
+
+.fadein img:not(:first-child) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

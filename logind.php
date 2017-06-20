@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <!-- Mit stylesheet -->
+        <!-- Mit stylesheet til log ind siden -->
         <link rel="stylesheet" href="CSS/logind.css">
         <title>Log ind</title>
     </head>
@@ -17,13 +17,14 @@
             <header> <img src="IMG/header_img.jpg" alt="logo">
                 <nav>
                     <ul id="ul1">
-                        <!-- Den grå kasse om menupunktet -->
                         <li class="li1"> <a href="index.php">HOME</a> </li>
                         <li class="li1"> <a href="">Planter</a></li>
-                        <li class="li1"> <a href="">Indretning</a> </li>
+                        <li class="li1"> <a href="slideshow.html">Indretning</a> </li>
+                        <li class="li1"> <a href="slideshow.php">Slideshow</a> </li>
                     </ul>
                     <!-- Log ind menupunkt -->
                     <ul id="logind">
+                        <!-- Den grå kasse om menupunktet -->
                         <div class="gray">
                             <li><a href="logind.php">Log ind</a></li>
                     </ul>

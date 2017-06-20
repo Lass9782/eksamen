@@ -1,0 +1,137 @@
+        /*Her impoterer jeg variables*/
+        
+        @import "variables";
+        /*Så er der ingen uønsket margin*/
+        
+        body,
+        h1,
+        h2,
+        p,
+        nav ul,
+        nav li,
+        div ul,
+        div li {
+            margin: $marginnone;
+            padding: $marginnone;
+        }
+        /*Min wrapper*/
+        
+        .wrapper {
+            width: 1920px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        /*Header*/
+        
+        header {
+            width: $width;
+            margin: 0 auto;
+            max-width: 100%;
+            img {
+                width: 100%;
+            }
+            /*Min menu*/
+            nav {
+                border-top: $border;
+                border-bottom: $border;
+                height: 38px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                ul {
+                    padding-left: 1%;
+                    padding-right: 1%;
+                    .gray {
+                        background-color: #e7e7e7;
+                        padding: 10px 4px 10px 18px;
+                        display: inline-block;
+                        width: 24%;
+                    }
+                    li {
+                        display: inline-block;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: #777;
+                        text-transform: uppercase;
+                        font-family: $fontfamily;
+                        font-size: $fontsize;
+                    }
+                }
+                .li1 {
+                    padding-right: 25px;
+                }
+            }
+            /*Ul hvor linket går til log ind siden*/
+            #logind {
+                padding-top: 1%;
+            }
+            /*Når man er logget ind kommer dette frem*/
+            h4 {
+                font-family: $fontfamily;
+                font-size: $fontsize;
+                text-transform: uppercase;
+                color: #777;
+                padding-right: 1%;
+                margin-top: 1%;
+                a {
+                    text-decoration: none;
+                    font-family: $fontfamily;
+                    font-size: $fontsize;
+                    text-transform: uppercase;
+                    color: #777;
+                }
+            }
+        }
+        /*Min main*/
+        
+        main {
+            width: $width;
+            max-width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-bottom: $border;
+        }
+        /*Footer*/
+        
+        footer {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 1%;
+        }
+        /*Virker på skærme med 423px i breden*/
+        
+        @media screen and (max-width: 423px) {
+            header {
+                nav {
+                    justify-content: center;
+                    height: 160px;
+                    ul {
+                        .gray {
+                            width: 100%;
+                            padding-right: 0;
+                            padding: 10px 10px 0px 3px;
+                        }
+                        li {
+                            display: block;
+                            text-align: center;
+                            padding-bottom: 10%;
+                        }
+                        a {
+                            padding-left: 34px;
+                        }
+                    }
+                }
+                #logind {
+                    display: block;
+                }
+            }
+            main {
+                flex-direction: column;
+                padding-top: 3%;
+            }
+        }

@@ -4,6 +4,8 @@
 
     <head>
         <meta charset="UTF-8">
+        <!--Min hjemmesides beskrivelse-->
+        <meta name="description" content="Moderigtige planter - Indretning af urbant miljø – Billede galleri om livsstil med planter– Læs hvad andre bruger skriver om deres livsstil">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <!-- Mit stylesheet -->
         <link rel="stylesheet" href="CSS/style.css">
@@ -25,8 +27,9 @@
                         </div>
                         <li class="li1"> <a href="">Planter</a></li>
                         <li class="li1"> <a href="">Indretning</a> </li>
+                        <li class="li1"> <a href="slideshow.php">Slideshow</a> </li>
                     </ul>
-                    <!-- Log ind menupunkt når man ikke er logget ind -->
+                    <!-- Log ind menupunkt når man er logget ind -->
                     <?php 
                     if(isset($_SESSION ['username']) && !empty($_SESSION['username'])){ ?>
                         <h4>Hej
@@ -37,7 +40,7 @@
                         <?php        
                     } else{
                     ?>
-                            <!-- Log ind menupunkt når man er logget ind -->
+                            <!-- Log ind menupunkt når man ikke er logget ind -->
                             <ul id="logind">
                                 <li><a href="logind.php">Log ind</a></li>
                             </ul>
